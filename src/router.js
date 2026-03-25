@@ -108,6 +108,12 @@ const routes = [
     component: () => import(/* webpackChunkName: "setHeightAdaptive" */ '@/views/set-height-adaptive'),
   },
   {
+    path: '/stack-sticky',
+    name: 'stackSticky',
+    meta: { description: 'stack-sticky 在 Vue 中的示例' },
+    component: () => import(/* webpackChunkName: "stackSticky" */ '@/views/stack-sticky'),
+  },
+  {
     path: '/sticky-fixed-col',
     name: 'stickyFixedCol',
     meta: { description: 'v-sticky-header 固定列表格' },

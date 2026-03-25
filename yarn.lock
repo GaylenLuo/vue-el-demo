@@ -4765,6 +4765,11 @@ split-string@^3.0.1, split-string@^3.0.2:
   dependencies:
     extend-shallow "^3.0.0"
 
+stack-sticky@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/stack-sticky/-/stack-sticky-1.0.1.tgz#d8154300d471dc754da9a8f7566fc3c9cfdd054b"
+  integrity sha512-Pg2brcrAb5nLouCkwGtfdcxBJbz0o1f7vKnCVlqihdXNLaFLzNCSk9g/Vaj/cGAwX6SbooLEECZzmQLYYB1b8Q==
+
 static-extend@^0.1.1:
   version "0.1.2"
   resolved "https://registry.npmjs.org/static-extend/-/static-extend-0.1.2.tgz#60809c39cbff55337226fd5e0b520f341f1fb5c6"
