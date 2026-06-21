@@ -19,7 +19,7 @@
   "author": "Lruihao (https://lruihao.cn)",
   "license": "MIT",
   "scripts": {
-    "build": "npm run gr && rsbuild build",
+    "build": "yarn build --immutable",
     "gr": "node gen-router.js",
     "dev": "npm run gr && rsbuild dev",
     "preview": "rsbuild preview"
